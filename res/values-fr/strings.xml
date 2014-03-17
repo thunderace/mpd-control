@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- main application -->
+        
+    <string name="app_name">MPD Control</string>
+    
+    <string name="app_connecting">Connexion…</string>
+	<string name="app_connecting_to_server">Connexion au serveur MPD.</string>
+	<string name="app_connection_failed">Echec de la connexion</string>
+	<string name="app_connection_failed_message">Echec de la connexion au serveur MPD ! Verifiez que le serveur est atteignable (%s)</string>
+	<string name="app_connection_failed_message_setting">Echec de la connexion, Verifiez vos paramêtres de connecxion. (%s)</string>
+	
+    <!-- main activity -->
+    
+    <string name="tab_playing">Lecture</string>
+    <string name="tab_playlist">Playlist</string>
+    <string name="tab_playingplaylist">Lecture</string>
+    <string name="tab_library">Librairie</string>
+    <string name="tab_playlists">Listes</string>
+    
+    <string name="menu_search">Chercher</string>
+    <string name="menu_refresh">Rafraichir</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_exit">Quitter</string>
+    
+    <string name="app_exit_press_back_twice_message">Appuyez encore une fois sur retour pour quitter</string>
+    
+    <!-- helpers -->
+    
+    <string name="album_cache_updating_note">Mise à jour du cache des albums</string>
+        
+    <!-- settings --> 
+    
+    <string name="settings_wifi_connected">Connecté</string>
+    <string name="settings_wifi_not_in_range">Pas à portée, enregistré</string>
+    
+    <string name="settings_server_infos_version">Version</string>
+    <string name="settings_server_infos_artists">Artistes</string>
+    <string name="settings_server_infos_albums">Albums</string>
+    <string name="settings_server_infos_tracks">Chansons</string>
+        
+	<!-- dialogs -->
+
+	<string name="dialog_quit">Quitter</string>
+	<string name="dialog_retry">Réessayer</string>
+    <string name="dialog_yes">Oui</string>
+    <string name="dialog_no">Non</string>
+    <string name="dialog_close">Fermer</string>
+        
+    <!-- playing fragment -->
+    
+    <string name="playing_not_connected">Non connecté</string>
+    <string name="playing_no_song_info">Pas d\'informations sur le morceau</string>
+    <string name="playing_popup_other_cover">Télécharger une autre image</string>
+    <string name="playing_popup_reset_cover">Réinitialiser l\'image</string>
+    
+    <string name="playing_popup_go_album">Aller à l\'album</string>
+    <string name="playing_popup_go_artist">Aller à l\'artiste</string>
+    <string name="playing_popup_go_folder">Aller au dossier</string>
+    <string name="playing_popup_go_current">Aller à la chanson en cours</string>
+    
+    <!-- playlist fragment -->
+    
+    <string name="playlist_popup_delete_songs">Enlever les chansons</string>
+    <string name="playlist_song_selected">1 chanson selectionnée</string>
+    <string name="playlist_songs_selected">%s chansons selectionnées</string>
+    <string name="playlist_confirm_delete_song">Voulez-vous supprimer cette chanson de la liste de lecture ?</string>
+    <string name="playlist_confirm_delete_songs">Voulez-vous supprimer ces chansons de la liste de lecture ?</string>
+    <string name="playlist_confirm_clear_all">Voulez-vous effacer entièrement la liste de lecture ?</string>
+    <string name="playlist_delete_all">Supprimer toute la liste de lecture</string>
+    <string name="playlist_cleared">La liste de lecture à été vidée</string>
+    <string name="playlist_save">Sauvegarder la liste de lecture</string>
+    <string name="playlist_saved">Liste de lecture sauvegardée</string>
+    
+    <!-- library -->
+    
+    <string name="library_genres">Genres</string>
+    <string name="library_albums">Albums</string>
+    <string name="library_tracks">Chansons</string>
+    
+    <string name="library_loading">Chargement…</string>
+    <string name="library_loading_artists">Chargement des artistes…</string>
+    <string name="library_loading_albums">Chargement des albums…</string>
+    <string name="library_loading_tracks">Chargement des chansons…</string>
+    <string name="library_loading_playlists">Chargement des listes de lecture…</string>
+    <string name="library_no_result">Aucun résultat</string>
+    
+    <string name="library_add_artist">Ajouter l\'artiste</string>
+    <string name="library_artist_added">Artiste \'%s\' ajouté</string>
+    
+    <string name="library_add_album">Ajouter l\'album</string>
+    <string name="library_album_added">Album \'%s\' ajouté</string>
+    <string name="library_album_fmt_singleTrack">%d chanson</string>
+    <string name="library_album_fmt_multiTrack">%d chansons</string>
+	
+	<string name="library_add_track">Ajouter la chanson</string>
+    <string name="library_track_added">Chanson \'%s\' ajoutée</string>
+    <string name="library_track_various_artists">Artistes variés</string>
+    <string name="library_track_fmt_singleTrack">%1$s chanson, %2$s</string>
+    <string name="library_track_fmt_multiTrack">%1$s chansons, %2$s</string>
+    
+    <string name="library_add_playlist">Ajouter la liste de lecture</string>
+    <string name="library_playlist_added">Liste de lecture %s ajoutée</string>
+    <string name="library_new_playlist">Nouvelle liste de lecture</string>
+	<string name="library_playlist_name">Nom de la liste de lecture</string>
+	<string name="library_new_playlist_prompt">Entrez un nom pour la nouvelle playlist :</string>
+	
+	<string name="library_add_replace">Ajouter et remplacer</string>
+	<string name="library_add_replace_play">Ajouter, remplacer et jouer</string>
+	<string name="library_add_play">Ajouter et jouer</string>
+	<string name="library_add_to_playlist">Ajouter à une liste de lecture</string>
+	
+	<!-- playlists -->
+	<string name="playlists_edit">Editer</string>
+	<string name="playlists_delete">Supprimer</string>
+	<string name="playlists_playlist_deleted">Playlist \'%s\' supprimée</string>
+	<string name="playlists_playlist_delete">Supprimer la Playlist</string>
+	<string name="playlists_confirm_delete">Voulez-vous vraiment supprimer \'%s\' ?</string>
+    <string name="playlists_delete_failed">Impossible de supprimer \'%s\'</string>
+    
+    <!--  activity playlist edit -->
+	<string name="activity_playlist_edit">Edition de la playlist \'%s\'</string>
+	<string name="activity_playlist_menuadd">Ajouter à la liste de lecture</string>
+	<string name="activity_playlist_addtitle">Sélectionnez les flux</string>
+    <string name="activity_playlist_add">Ajouter</string>
+    <string name="activity_playlist_added">%d flux ajouté(s)</string>
+	
+    <!--  mpd lib -->
+	<string name="mpd_unknown_album">(Album Inconnu)</string>
+    <string name="mpd_unknown_artist">(Artiste inconnu)</string>
+    <string name="mpd_unknown_genre">(Genre inconnu)</string>
+
+</resources>

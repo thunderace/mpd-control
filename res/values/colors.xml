@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="playing_text_color_primary">#ff000000</color>
+    <color name="playing_text_color_secondary">#ff808080</color>
+    
+    <color name="list_item_horizontal_separator">#cccccc</color>
+    
+    <color name="holo_button_highlight">#9933b5e5</color>
+    <color name="holo_button_highlight_low">#5533b5e5</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="list_view_item_color1">#ffffffff</color>
+    <color name="list_view_item_color2">#fff0f0f0</color>
+        
+</resources>

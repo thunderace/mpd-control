@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:layout_gravity="left"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:baselineAligned="true"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="4dip"
+    android:paddingTop="4dip" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="4dip"
+        android:scaleType="center"
+        android:src="@drawable/ic_mp_move" 
+        android:layout_alignParentLeft="true" 
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="false" 
+        android:layout_marginTop="4dp" 
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="46dip"
+        android:layout_height="46dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="4dip"
+        android:src="@drawable/no_cover_art" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp" android:layout_toRightOf="@+id/icon"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_toRightOf="@+id/cover" android:layout_toLeftOf="@+id/picture">
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@android:id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:paddingLeft="2dip"
+        android:paddingRight="4dip" />
+
+</RelativeLayout>

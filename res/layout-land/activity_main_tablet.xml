@@ -1,0 +1,49 @@
+<android.support.v4.view.ViewPager 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <LinearLayout
+        android:id="@+id/tab_playingplaylist"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:baselineAligned="false"
+		>
+            
+	    <fragment
+	        android:id="@+id/tab_playing"
+			android:name="org.chatminou.mpdcontrol.fragments.PlayingFragment"
+			android:layout_weight="40"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			/>
+	    
+	    <fragment
+	        android:id="@+id/tab_playlist"
+			android:name="org.chatminou.mpdcontrol.fragments.PlaylistFragment"
+			android:layout_weight="60"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			/>
+    
+    </LinearLayout>
+       
+    <fragment
+		android:id="@+id/tab_library"
+		android:name="org.chatminou.mpdcontrol.fragments.LibraryFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		/>
+  
+    <fragment
+		android:id="@+id/tab_playlists"
+		android:name="org.chatminou.mpdcontrol.fragments.PlaylistsFragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		/>
+        
+</android.support.v4.view.ViewPager>

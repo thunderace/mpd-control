@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+    <!-- 
+    <CheckBoxPreference 
+        android:title="@string/settings_library_artist_show_album_count"
+        android:summary="@string/settings_library_artist_show_album_count_desc"
+		android:key="@string/preferences_biblio_artist_show_album_count"
+        android:persistent="true" />
+    -->
+    
+    <CheckBoxPreference 
+        android:title="@string/settings_library_artist_sort_album_by_year"
+        android:summary="@string/settings_library_artist_sort_album_by_year_desc"
+		android:key="@string/preferences_biblio_artist_sort_album_by_year"
+        android:persistent="true" />
+        
+    <CheckBoxPreference 
+        android:title="@string/settings_library_album_show_track_count"
+        android:summary="@string/settings_library_album_show_track_count_desc"
+		android:key="@string/preferences_biblio_album_show_track_count"
+        android:persistent="true" />
+    
+    <CheckBoxPreference 
+        android:title="@string/settings_library_album_show_duration"
+        android:summary="@string/settings_library_album_show_duration_desc"
+		android:key="@string/preferences_biblio_album_show_duration"
+        android:persistent="true" />
+    
+    <CheckBoxPreference 
+        android:title="@string/settings_library_album_show_year"
+        android:summary="@string/settings_library_album_show_year_desc"
+		android:key="@string/preferences_biblio_album_show_year"
+        android:persistent="true" />
+    
+</PreferenceScreen>

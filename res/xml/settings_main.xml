@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/settings_server_header"
+        android:key="server" >
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/settings_interface_header"
+        android:key="interface" >
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/settings_library_header"
+        android:key="library" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

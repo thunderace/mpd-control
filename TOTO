@@ -1,0 +1,25 @@
+----------------------------------
+
+La mise en cache des pochettes pour les streams (radio) peut prendre de la place.
+Il faudrait soit :
+- effacer à partir d'une certaine taille (avec date d'insertion)
+- ne pas mettre en case les pochettes streams
+
+----------------------------------
+
+Pour les streams (radio), ne pas regarder dans les pochettes mpd mais directement sur le web.
+
+----------------------------------
+
+Pour les radios, pas de pochette mais cele de la radio en fixe
+
+
+Cycle pour la playlist car 'next' en fin de liste arrete la diff : pas bon
+
+
+============
+DMIX updates
+============
+Fait jusqu'au 12 mars 2014
+
+A faire ? : 2 mars, update cache local mpd

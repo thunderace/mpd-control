@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceScreen
+		android:title="@string/settings_interface_covers"
+		android:summary="@string/settings_interface_covers_desc" >
+		       
+		<CheckBoxPreference
+		    android:title="@string/settings_interface_covers_use_cache"
+		    android:summary="@string/settings_interface_covers_use_cache_desc"
+			android:key="@string/preferences_cover_use_cache"
+			android:persistent="true" />
+		
+		<EditTextPreference
+		    android:title="@string/settings_interface_covers_cache_usage"
+			android:defaultValue=""
+			android:enabled="false"
+			android:key="cover_cache_usage"
+			android:persistent="false" />
+
+		<Preference 
+			android:title="@string/settings_interface_covers_clear_cache"
+			android:summary="@string/settings_interface_covers_clear_cache_desc" 
+			android:key="cover_cache_clear" >
+		</Preference>
+
+		<CheckBoxPreference
+		    android:title="@string/settings_interface_covers_local"
+		    android:summary="@string/settings_interface_covers_local_desc"
+			android:key="@string/preferences_cover_use_local"
+			android:persistent="true" />
+		
+		<EditTextPreference
+		    android:title="@string/settings_interface_covers_local_path"
+		    android:summary="@string/settings_interface_covers_local_path_desc"
+			android:defaultValue=""
+			android:enabled="false"
+			android:key="@string/preferences_cover_local_path"
+			android:persistent="true" />
+		
+		<EditTextPreference
+		    android:title="@string/settings_interface_covers_local_filename"
+		    android:summary="@string/settings_interface_covers_local_filename_desc"
+			android:defaultValue="folder.jpg"
+			android:enabled="false"
+			android:key="@string/preferences_cover_local_filename"
+			android:persistent="true" />
+		
+		<CheckBoxPreference
+		    android:title="@string/settings_interface_covers_internet"
+		    android:summary="@string/settings_interface_covers_internet_desc"
+			android:key="@string/preferences_cover_use_internet"
+			android:persistent="true" />
+		
+		<CheckBoxPreference
+		    android:title="@string/settings_interface_covers_only_wifi"
+		    android:summary="@string/settings_interface_covers_only_wifi_desc"
+			android:key="@string/preferences_cover_only_wifi"
+			android:persistent="true" />
+				
+	</PreferenceScreen>
+	
+    <CheckBoxPreference 
+        android:title="@string/settings_interface_show_stop_button"
+        android:summary="@string/settings_interface_show_stop_button_desc"
+		android:key="@string/preferences_app_show_stop_button"
+        android:persistent="true" />
+    
+    <CheckBoxPreference 
+        android:title="@string/settings_interface_exit_mode"
+        android:summary="@string/settings_interface_exit_mode_desc"
+		android:key="@string/preferences_app_exit_only_by_menu"
+        android:persistent="true" />
+
+</PreferenceScreen>

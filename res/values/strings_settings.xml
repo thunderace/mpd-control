@@ -1,0 +1,92 @@
+<resources>
+    
+    <string name="settings_server_header">Server settings</string>
+     
+    	<string name="settings_server_connections">Connection settings</string>
+		<string name="settings_server_connections_desc">Set MPD-Host/Port and password</string>
+	
+			<string name="settings_connections_default_header">Default connection</string>
+			
+				<string name="settings_connections_default">Default connection settings</string>
+				<string name="settings_connections_default_desc">Set default MPD-Host/Port and password</string>
+								
+					<string name="settings_connection_host">Host</string>
+					<string name="settings_connection_host_desc">MPD-Server hostname or IP-address</string>
+					<string name="settings_connection_port">Port</string>
+					<string name="settings_connection_port_desc">MPD-Server port (Default: 6600)</string>
+					<string name="settings_connection_pass">Password</string>
+					<string name="settings_connection_pass_desc">Password for the server</string>
+		
+			<string name="settings_connections_wifi_header">Wifi connection</string>
+		
+				<string name="settings_connections_wifi">WLAN based connection</string>
+				<string name="settings_connections_wifi_desc">Set WLAN based MPD-Host/Port and password</string>
+	
+		<string name="settings_server_output">Outputs</string>
+		<string name="settings_server_output_desc">Enable/Disable MPD-Outputs</string>
+		
+	    <string name="settings_server_update">Update</string>
+		<string name="settings_server_update_desc">Refresh MPD\'s database</string>
+		<string name="settings_server_update_confirm">Do you really want to update remote MPD\'s database ?</string>
+		<string name="settings_server_update_notif">Update started</string>
+			
+		<string name="settings_server_cache">Use Album Cache</string>
+		<string name="settings_server_cache_desc">Save MPD database info locally</string>
+			
+		<string name="settings_server_info">Server Information</string>
+		<string name="settings_server_info_desc">Different MPD-Server information such as version, songcount…</string>
+			
+	<string name="settings_interface_header">Interface</string>
+               
+        <string name="settings_interface_covers">Cover art settings</string>
+    	<string name="settings_interface_covers_desc">Change how cover art is downloaded and stored</string>
+    	
+			<string name="settings_interface_covers_use_cache">Cache cover art</string>
+			<string name="settings_interface_covers_use_cache_desc">Saves downloaded cover art on the device for faster retrieval</string>
+			<string name="settings_interface_covers_cache_usage">Cache usage</string>
+			
+			<string name="settings_interface_covers_clear_cache">Clear cover art cache</string>
+			<string name="settings_interface_covers_clear_cache_desc">Free the storage space used by the cover art cache</string>
+			
+    		<string name="settings_interface_covers_clear_cache_confirm">Delete all cached cover art ?</string>
+    		<string name="settings_interface_covers_clear_cache_deleted">Cache deleted</string>
+    		
+    		<string name="settings_interface_covers_local">Download local cover art</string>
+			<string name="settings_interface_covers_local_desc">Get cover art from the server running MPD (requires a web server)</string>
+			<string name="settings_interface_covers_local_path">Path to music</string>
+			<string name="settings_interface_covers_local_path_desc">Path to your music directory on the web server</string>
+			<string name="settings_interface_covers_local_filename">Cover filename</string>
+			<string name="settings_interface_covers_local_filename_desc">Standard filename for your album artwork IE, folder.jpg</string>
+			
+			<string name="settings_interface_covers_internet">Download cover art from internet</string>
+			<string name="settings_interface_covers_internet_desc">Get cover art using various internet services (sends them your song information)</string>
+			
+			<string name="settings_interface_covers_only_wifi">Download via Wi-Fi only</string>
+    		<string name="settings_interface_covers_only_wifi_desc">Do not download cover art over mobile network. Reduces carrier charges</string>
+    
+    	<string name="settings_interface_show_stop_button">Stop button</string>
+    	<string name="settings_interface_show_stop_button_desc">Show stop button in playing view</string>
+    	
+    	<string name="settings_interface_exit_mode">Exit mode</string>
+    	<string name="settings_interface_exit_mode_desc">Exit application only by menu</string>
+    
+	<string name="settings_library_header">Library</string>
+	
+		<!--
+		<string name="settings_library_artist_show_album_count">Artist album count</string>
+	    <string name="settings_library_artist_show_album_count_desc">Show number of albums on artist</string>
+	    -->
+	    
+	    <string name="settings_library_artist_sort_album_by_year">Sort artist albums</string>
+	    <string name="settings_library_artist_sort_album_by_year_desc">Show albums by year</string>
+    
+		<string name="settings_library_album_show_track_count">Album track count</string>
+	    <string name="settings_library_album_show_track_count_desc">Show number of tracks on album</string>
+	    
+	    <string name="settings_library_album_show_duration">Album ruration</string>
+	    <string name="settings_library_album_show_duration_desc">Show duration of album</string>
+	    
+	    <string name="settings_library_album_show_year">Album year</string>
+	    <string name="settings_library_album_show_year_desc">Show year of album</string>
+	    
+</resources>

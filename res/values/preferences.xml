@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="preferences_mpd_local_cache">server.mpd_local_cache</string>
+    
+    <string name="preferences_cover_use_cache">cover.use_cache</string>
+    <string name="preferences_cover_use_local">cover.use_local</string>
+    <string name="preferences_cover_local_path">cover.local_path</string>
+    <string name="preferences_cover_local_filename">cover.local_filename</string>
+    <string name="preferences_cover_use_internet">cover.use_internet</string>
+    <string name="preferences_cover_only_wifi">cover.only_wifi</string>
+    
+    <string name="preferences_app_exit_only_by_menu">app.exit_only_by_menu</string>
+    <string name="preferences_app_show_stop_button">app.show_stop_button</string>
+        
+    <string name="preferences_biblio_artist_show_album_count">artist.show_album_count</string>
+    <string name="preferences_biblio_artist_sort_album_by_year">artist.sort_album_by_year</string>
+    <string name="preferences_biblio_album_show_track_count">album.show_track_count</string>
+    <string name="preferences_biblio_album_show_duration">album.show_duration</string>
+    <string name="preferences_biblio_album_show_year">album.show_year</string>
+    
+	
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<dimen name="playerbutton_width">50dip</dimen>
+    <dimen name="playerbutton_height">50dip</dimen>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/settings_connections_default_header"
+        android:key="default" >
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/settings_connections_wifi_header"
+        android:key="wifi" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<resources>
+   
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+   
+    <style name="PlayerButton" parent="android:Widget.Holo.ImageButton">
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:minHeight">@dimen/playerbutton_height</item>
+     </style>
+       
+</resources>

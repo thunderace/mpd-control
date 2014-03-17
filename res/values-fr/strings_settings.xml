@@ -1,0 +1,92 @@
+<resources>
+    
+    <string name="settings_server_header">Serveur</string>
+     
+    	<string name="settings_server_connections">Paramètres de connexion</string>
+		<string name="settings_server_connections_desc">Définir l\'addresse/port et mot de passe du serveur MPD</string>
+	
+			<string name="settings_connections_default_header">Default connection</string>
+			
+				<string name="settings_connections_default">Default connection settings</string>
+				<string name="settings_connections_default_desc">Set default MPD-Host/Port and password</string>
+								
+					<string name="settings_connection_host">Hôte</string>
+					<string name="settings_connection_host_desc">IP ou nom du serveur MPD</string>
+					<string name="settings_connection_port">Port</string>
+					<string name="settings_connection_port_desc">Port du serveur MPD (Défaut: 6600)</string>
+					<string name="settings_connection_pass">Mot de passe</string>
+					<string name="settings_connection_pass_desc">Mot de passe du serveur</string>
+		
+			<string name="settings_connections_wifi_header">Wifi connection</string>
+		
+				<string name="settings_connections_wifi">WLAN based connection</string>
+				<string name="settings_connections_wifi_desc">Set WLAN based MPD-Host/Port and password</string>
+	
+		<string name="settings_server_output">Sorties</string>
+		<string name="settings_server_output_desc">Activer/Désactiver les sorties MPD</string>
+		
+	    <string name="settings_server_update">Mettre à jour</string>
+		<string name="settings_server_update_desc">Rafraichir la bibliothèque de MPD</string>
+		<string name="settings_server_update_confirm">Voullez-vous vraiment mettre à jour la bibliothèque de MPD ?</string>
+		<string name="settings_server_update_notif">Mise à jour lancée</string>
+			
+		<string name="settings_server_cache">Cache des album</string>
+		<string name="settings_server_cache_desc">Sauvegarde la bibliothèque MPD localement pour un gain de vitesse</string>
+			
+		<string name="settings_server_info">Information serveur</string>
+		<string name="settings_server_info_desc">Information du serveur MPD comme la version, le nombre de chansons…</string>
+			
+	<string name="settings_interface_header">Interface</string>
+               
+        <string name="settings_interface_covers">Paramètres des pochettes</string>
+    	<string name="settings_interface_covers_desc">Changer comment les pochettes sont téléchargées et stockées</string>
+    	
+			<string name="settings_interface_covers_use_cache">Mettre en cache local</string>
+			<string name="settings_interface_covers_use_cache_desc">Sauvegarde les pochettes téléchargées pour un chargement plus rapide</string>
+			<string name="settings_interface_covers_cache_usage">Espace occupé par le cache</string>
+			
+			<string name="settings_interface_covers_clear_cache">Vider le cache</string>
+			<string name="settings_interface_covers_clear_cache_desc">Libère l\'espace utilisé par le cache de pochettes</string>
+			
+    		<string name="settings_interface_covers_clear_cache_confirm">Supprimer le cache de pochettes ?</string>
+    		<string name="settings_interface_covers_clear_cache_deleted">Cache supprimé</string>
+    		
+    		<string name="settings_interface_covers_local">Télécharger en local</string>
+			<string name="settings_interface_covers_local_desc">Obtenir les pochettes depuis le serveur hébergant MPD (requiert un serveur web)</string>
+			<string name="settings_interface_covers_local_path">Chemin vers la musique</string>
+			<string name="settings_interface_covers_local_path_desc">Chemin vers votre répertoire de musique sur vôtre serveur web</string>
+			<string name="settings_interface_covers_local_filename">Nom du fichier pochette</string>
+			<string name="settings_interface_covers_local_filename_desc">Nom de fichier des pochettes, par ex. folder.jpg</string>
+			
+			<string name="settings_interface_covers_internet">Télécharger sur internet</string>
+			<string name="settings_interface_covers_internet_desc">Obtenir les pochettes via divers services (leur envoie les informations sur la chanson courante)</string>
+			
+			<string name="settings_interface_covers_only_wifi">Télécharger seulement via Wi-Fi</string>
+    		<string name="settings_interface_covers_only_wifi_desc">Ne pas télécharger les pochettes via le réseau mobile. Réduit les frais d\'opérateur</string>
+    
+    	<string name="settings_interface_show_stop_button">Button stop</string>
+    	<string name="settings_interface_show_stop_button_desc">Affiche le button stop sur la page lecture</string>
+    	
+    	<string name="settings_interface_exit_mode">Confirmation de sortie</string>
+    	<string name="settings_interface_exit_mode_desc">Quiter l\'application uniquement par le menu</string>
+    
+	<string name="settings_library_header">Bibliothèque</string>
+	
+		<!--
+		<string name="settings_library_artist_show_album_count">Albums de l\'artiste</string>
+	    <string name="settings_library_artist_show_album_count_desc">Affiche le nombre d\'albums de l\'artiste</string>
+	    -->
+	    
+	    <string name="settings_library_artist_sort_album_by_year">Tri des albums</string>
+	    <string name="settings_library_artist_sort_album_by_year_desc">Tri les albums par année</string>
+    
+		<string name="settings_library_album_show_track_count">Morceaux de l\'album</string>
+	    <string name="settings_library_album_show_track_count_desc">Affiche le nombre de morceaux de l\'album</string>
+	    
+	    <string name="settings_library_album_show_duration">Durée de l\'album</string>
+	    <string name="settings_library_album_show_duration_desc">Affiche la durée de l\'album</string>
+	    
+	    <string name="settings_library_album_show_year">Année de l\'album</string>
+	    <string name="settings_library_album_show_year_desc">Affiche l\'année de l\'album</string>
+	    
+</resources>
