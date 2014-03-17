@@ -29,7 +29,7 @@ import android.view.WindowManager.BadTokenException;
 
 public class MainApplication extends Application implements ConnectionListener 
 {
-	public static final String TAG = "mpc-android";
+	public static final String TAG = "mpd-control";
 	
 	private static final long DISCONNECT_TIMER = 15000; 
 	

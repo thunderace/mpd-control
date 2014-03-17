@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules">
+
+	<xmlproperty file="AndroidManifest.xml" prefix="mymanifest" collapseAttributes="true"/>
+
+	<target name="-post-build">
+		<move file="${out.final.file}" tofile="${out.absolute.dir}/${ant.project.name}_${mymanifest.manifest.android:versionName}.apk"/>
+		<echo>Rename the built package name to ${out.absolute.dir}/${ant.project.name}_${mymanifest.manifest.android:versionName}.apk</echo>
+	</target>
+
+</project>

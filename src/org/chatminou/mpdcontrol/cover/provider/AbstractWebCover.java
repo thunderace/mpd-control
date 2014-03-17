@@ -29,7 +29,7 @@ import java.net.URL;
 public abstract class AbstractWebCover implements ICoverRetriever 
 {
 
-    private final String USER_AGENT = "MpcAndroid/0.0.0";
+    private final String USER_AGENT = "MpdControl/0.0.0";
     private final static boolean DEBUG = CoverManager.DEBUG;
 
     protected void d(String a, String b) { if (DEBUG) Log.d(MainApplication.TAG, a + ": " + b); }

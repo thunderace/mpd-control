@@ -44,7 +44,7 @@ public class ServiceBonjour extends Service implements ServiceListener
 			InetAddress addr=InetAddress.getByAddress(byteaddr);
 		    String hostname = InetAddress.getByName(addr.getHostName()).toString();
 			
-			lock = wifi.createMulticastLock("mpcandroid_bonjour");
+			lock = wifi.createMulticastLock("mpdcontrol_bonjour");
 	        lock.setReferenceCounted(true);
 	        lock.acquire();
 			jmdns = JmDNS.create(addr, hostname);
@@ -122,7 +122,7 @@ public class ServiceBonjour extends Service implements ServiceListener
 		InetAddress addr=InetAddress.getByAddress(byteaddr);
 	    String hostname = InetAddress.getByName(addr.getHostName()).toString();
 		
-	    MulticastLock lock = manager.createMulticastLock("mpcandroid_bonjour");
+	    MulticastLock lock = manager.createMulticastLock("mpdcontrol_bonjour");
         lock.setReferenceCounted(true);
         lock.acquire();
         JmDNS jmdns = JmDNS.create(addr, hostname);
