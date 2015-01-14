@@ -8,28 +8,28 @@
     
     <fragment
 		android:id="@+id/tab_playing"
-		android:name="org.chatminou.mpdcontrol.fragments.PlayingFragment"
+		android:name="org.thunder.mpdcontrol.fragments.PlayingFragment"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		/>
     
     <fragment
 		android:id="@+id/tab_playlist"
-		android:name="org.chatminou.mpdcontrol.fragments.PlaylistFragment"
+		android:name="org.thunder.mpdcontrol.fragments.PlaylistFragment"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		/>
     
     <fragment
 		android:id="@+id/tab_library"
-		android:name="org.chatminou.mpdcontrol.fragments.LibraryFragment"
+		android:name="org.thunder.mpdcontrol.fragments.LibraryFragment"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		/>
    
     <fragment
 		android:id="@+id/tab_playlists"
-		android:name="org.chatminou.mpdcontrol.fragments.PlaylistsFragment"
+		android:name="org.thunder.mpdcontrol.fragments.PlaylistsFragment"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		/>

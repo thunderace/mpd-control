@@ -10,5 +10,10 @@
         android:title="@string/settings_connections_wifi_header"
         android:key="wifi" >
     </PreferenceCategory>
-
+    
+    <PreferenceCategory 
+        android:title="@string/settings_connections_mdns_header"
+        android:key="wifi" >
+    </PreferenceCategory>
+    
 </PreferenceScreen>

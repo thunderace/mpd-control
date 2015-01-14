@@ -14,7 +14,7 @@
         android:baselineAligned="true"
         android:orientation="horizontal" >
 
-        <org.chatminou.mpdcontrol.view.FixedRatioRelativeLayout
+        <org.thunder.mpdcontrol.view.FixedRatioRelativeLayout
             android:id="@+id/coverLayout"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:visible="false" />
-        </org.chatminou.mpdcontrol.view.FixedRatioRelativeLayout>
+        </org.thunder.mpdcontrol.view.FixedRatioRelativeLayout>
 
         <LinearLayout
             android:id="@+id/LinearLayout1"

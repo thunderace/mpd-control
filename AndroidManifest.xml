@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.chatminou.mpdcontrol"
+    package="org.thunder.mpdcontrol"
     android:versionCode="6"
     android:versionName="1.02" >
 
@@ -15,7 +15,7 @@
         />
 
     <application
-        android:name=".MainApplication"
+        android:name="org.thunder.mpdcontrol.MainApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_app"
@@ -25,7 +25,7 @@
         >
         
         <activity
-            android:name=".MainActivity"
+            android:name="org.thunder.mpdcontrol.MainActivity"
             android:label="@string/app_name" 
             android:windowSoftInputMode="adjustNothing" 
             android:launchMode="singleTop" 	>
@@ -35,7 +35,7 @@
             </intent-filter>
         </activity>
         
-        <service android:name=".ServiceBonjour"/>
+        <service android:name="org.thunder.mpdcontrol.ServiceBonjour"/>
         
         <activity 
             android:name=".settings.MainSettingsActivity" 

@@ -17,11 +17,12 @@
 					<string name="settings_connection_pass">Mot de passe</string>
 					<string name="settings_connection_pass_desc">Mot de passe du serveur</string>
 		
-			<string name="settings_connections_wifi_header">Wifi connection</string>
+			<string name="settings_connections_wifi_header">Connection Wifi</string>
 		
 				<string name="settings_connections_wifi">WLAN based connection</string>
 				<string name="settings_connections_wifi_desc">Set WLAN based MPD-Host/Port and password</string>
-	
+			<string name="settings_connections_mdns_header">Connections MDNS</string>
+				
 		<string name="settings_server_output">Sorties</string>
 		<string name="settings_server_output_desc">Activer/Désactiver les sorties MPD</string>
 		

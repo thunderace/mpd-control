@@ -21,7 +21,8 @@
 		
 				<string name="settings_connections_wifi">WLAN based connection</string>
 				<string name="settings_connections_wifi_desc">Set WLAN based MPD-Host/Port and password</string>
-	
+			<string name="settings_connections_mdns_header">MDNS connection</string>
+					
 		<string name="settings_server_output">Outputs</string>
 		<string name="settings_server_output_desc">Enable/Disable MPD-Outputs</string>
 		

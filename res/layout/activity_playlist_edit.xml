@@ -7,7 +7,7 @@
     android:focusableInTouchMode="true"
     android:orientation="vertical" >
 
-    <org.chatminou.dragsortlistview.DragSortListView
+    <org.thunder.dragsortlistview.DragSortListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
